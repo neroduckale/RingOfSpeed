@@ -11,5 +11,7 @@ public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
     public static final RegistryObject<Item> ring = ITEMS.register("ring",
                 () -> new Ring(new Item.Properties()));
+    public static final RegistryObject<Item> ringformajor = ITEMS.register("ringformajor",
+            () -> new Ring(new Item.Properties()));
 
 }
