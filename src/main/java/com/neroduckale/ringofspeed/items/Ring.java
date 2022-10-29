@@ -24,7 +24,7 @@ public class Ring extends Item {
     }
 
     public static void gainspeed(LivingEntity playerIn) {
-        playerIn.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 20));
+        playerIn.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 20 ));
     }
 
 

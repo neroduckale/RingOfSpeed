@@ -2,6 +2,7 @@ package com.neroduckale.ringofspeed.init;
 
 import com.neroduckale.ringofspeed.ExampleMod;
 import com.neroduckale.ringofspeed.items.Ring;
+import com.neroduckale.ringofspeed.items.RingForMajor;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +13,6 @@ public class ItemInit {
     public static final RegistryObject<Item> ring = ITEMS.register("ring",
                 () -> new Ring(new Item.Properties()));
     public static final RegistryObject<Item> ringformajor = ITEMS.register("ringformajor",
-            () -> new Ring(new Item.Properties()));
+            () -> new RingForMajor(new Item.Properties()));
 
 }
