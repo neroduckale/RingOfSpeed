@@ -5,13 +5,14 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Rarity;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.world.World;
 
 public class RingForMajor extends Item {
     public RingForMajor(Item.Properties properties) {
-        super(properties.tab(ItemGroup.TAB_MISC));
+        super(properties.tab(ItemGroup.TAB_MISC).rarity(Rarity.EPIC));
 
 
     }
